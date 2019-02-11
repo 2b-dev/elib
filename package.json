@@ -23,5 +23,10 @@
   "bugs": {
     "url": "https://github.com/2b-dev/elib/issues"
   },
-  "homepage": "https://github.com/2b-dev/elib#readme"
+  "homepage": "https://github.com/2b-dev/elib#readme",
+  "dependencies": {
+    "mdbootstrap": "^4.7.1",
+    "owl.carousel": "^2.3.4",
+    "sweetalert2": "^8.0.6"
+  }
 }
