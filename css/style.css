@@ -1,0 +1,110 @@
+.navbar {
+  background-color: #fff;
+  background-image: linear-gradient(to bottom, #fff 0%, #fff 60%, #dddddd 120%);
+}
+.navbar_logo {
+  max-height: 60px;
+}
+.navbar.navbar-light div.navbar-collapse {
+  position: relative;
+}
+.navbar.navbar-light div.navbar-collapse .navbar-nav.custom-navbar-nav {
+  position: absolute;
+  top: 0px;
+}
+.navbar.navbar-light .navbar-nav.custom-navbar-nav .nav-item.custom-menu {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 3px solid #f04f2d;
+  background-color: #fff;
+  display: flex;
+  align-content: center;
+  justify-items: center;
+  align-self: center;
+  justify-content: center;
+  margin-left: 1.5rem;
+}
+.navbar.navbar-light .navbar-nav.custom-navbar-nav .nav-item.custom-menu:hover {
+  background-color: #eca99c;
+}
+.navbar.navbar-light
+  .navbar-nav.custom-navbar-nav
+  .nav-item.custom-menu
+  .nav-link {
+  padding: 0px;
+  display: flex;
+  align-content: center;
+  justify-items: center;
+  align-self: center;
+  justify-content: center;
+}
+.navbar.navbar-light
+  .navbar-nav.custom-navbar-nav
+  .nav-item.custom-menu
+  .nav-link
+  img {
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 50%;
+}
+.navbar-icon-right {
+  height: 30px;
+  margin: 0 0.3rem;
+}
+main {
+  min-height: 80vh;
+}
+.border-top-footer {
+  border-top: 1px solid #bcbec0;
+}
+.block-footer {
+  display: block;
+  margin: 0 auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border-bottom: 1px solid #bcbcbc;
+}
+.block-footer-social {
+  display: block;
+  margin: 0 auto;
+}
+.icon-menu-footer {
+  width: 80px;
+  height: 80px;
+  border-left: 1px solid #bcbec0;
+}
+.icon-menu-footer:first-of-type {
+  border-left: none;
+}
+.icon-menu-footer a img {
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.icon_footer_social {
+  width: 32px;
+  height: 32px;
+  margin: 0 0.5rem;
+}
+.icon_footer_social a img {
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+@media (max-width: 768px) {
+  .navbar.navbar-light div.navbar-collapse .navbar-nav.custom-navbar-nav {
+    position: static;
+  }
+  .navbar-nav.custom-navbar-nav{
+      flex-direction: row;
+      -webkit-flex-wrap: wrap;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+}

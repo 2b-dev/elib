@@ -1,7 +1,9 @@
 @font-face {
-	font-family: 'thaisanslite';
-	src: url('../fonts/thaisanslite/thaisanslite.eot');
-	src: local('☺'), url('../fonts/thaisanslite/thaisanslite.woff') format('woff'), url('../fonts/thaisanslite/thaisanslite.ttf') format('truetype'), url('../fonts/thaisanslite/thaisanslite.svg') format('svg');
-	font-weight: normal;
-	font-style: normal;
+  font-family: "thaisanslite";
+  src: url("../fonts/thaisanslite/thaisanslite.eot");
+  src: local("☺"), url("../fonts/thaisanslite/thaisanslite.woff") format("woff"),
+    url("../fonts/thaisanslite/thaisanslite.ttf") format("truetype"),
+    url("../fonts/thaisanslite/thaisanslite.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
 }
