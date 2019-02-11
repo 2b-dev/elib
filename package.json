@@ -1,0 +1,27 @@
+{
+  "name": "elib",
+  "version": "1.0.0",
+  "description": "E-Library for Ministry of energy",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2b-dev/elib.git"
+  },
+  "keywords": [
+    "HTML",
+    "TEMPLATE",
+    "library",
+    "Ministry",
+    "of",
+    "energy"
+  ],
+  "author": "Nu Chaimongkon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/2b-dev/elib/issues"
+  },
+  "homepage": "https://github.com/2b-dev/elib#readme"
+}
