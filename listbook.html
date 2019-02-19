@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>E-Library: Ministry of energy</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./node_modules/mdbootstrap/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./node_modules/mdbootstrap/css/mdb.min.css" />
+    <link
+      rel="stylesheet"
+      href="./node_modules/@fancyapps/fancybox/dist/jquery.fancybox.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./node_modules/owl.carousel/dist/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./node_modules/owl.carousel/dist/assets/owl.theme.default.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./node_modules/sweetalert2/dist/sweetalert2.min.css"
+    />
+    <link rel="stylesheet" href="./css/fonts.css" />
+    <link rel="stylesheet" href="./css/color.css" />
+    <link rel="stylesheet" href="./css/button.css" />
+    <link rel="stylesheet" href="./css/checkbox.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="container-page-fullhd">
+      <header>
+        <nav
+          class="navbar fixed-top navbar-expand-lg navbar-light white scrolling-navbar"
+        >
+          <div class="container">
+            <a class="navbar-brand waves-effect" href="index.html">
+              <img
+                src="./images/nav_logo.png"
+                class="navbar_logo"
+                alt="สำนักงานนโยบายและแผนพลังงาน กระทรวงพลังงาน"
+              />
+            </a>
+
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav custom-navbar-nav mr-auto">
+                <li class="nav-item custom-menu">
+                  <a class="nav-link waves-effect" href="#!"
+                    ><img src="./images/icon_menu1.png"
+                  /></a>
+                </li>
+                <li class="nav-item custom-menu">
+                  <a class="nav-link waves-effect" href="#!"
+                    ><img src="./images/icon_menu2.png"
+                  /></a>
+                </li>
+                <li class="nav-item custom-menu">
+                  <a class="nav-link waves-effect" href="#!"
+                    ><img src="./images/icon_menu3.png"
+                  /></a>
+                </li>
+                <li class="nav-item custom-menu">
+                  <a class="nav-link waves-effect" href="#!"
+                    ><img src="./images/icon_menu4.png"
+                  /></a>
+                </li>
+                <li class="nav-item custom-menu">
+                  <a class="nav-link waves-effect" href="#!"
+                    ><img src="./images/icon_menu5.png"
+                  /></a>
+                </li>
+              </ul>
+              <ul class="navbar-nav ml-auto nav-flex-icons">
+                <li class="nav-item">
+                  <a class="nav-link waves-effect waves-light">
+                    <img
+                      src="./images/icon_menu_search.png"
+                      class="navbar-icon-right"
+                    />
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link waves-effect waves-light">
+                    <img
+                      src="./images/icon_menu_mail.png"
+                      class="navbar-icon-right"
+                    />
+                  </a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link"
+                    id="navbarDropdownMenuLink-333"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    <img
+                      src="./images/icon_menu_signin.png"
+                      class="navbar-icon-right"
+                    />
+                  </a>
+                  <div
+                    class="dropdown-menu dropdown-menu-right dropdown-default"
+                    aria-labelledby="navbarDropdownMenuLink-333"
+                  >
+                    <a class="dropdown-item" href="#">Sub 1</a>
+                    <a class="dropdown-item" href="#">Sub 1</a>
+                    <a class="dropdown-item" href="#">Sub 1</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <main class="bg-detail-book mt-5 pt-4 pt-md-5">
+        <section class="section-breadcrumbs">
+          <div class="container">
+            <div class="col-12">
+              <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item">
+                    <a class="white-text" href="index.html">หน้าหลัก</a
+                    ><i
+                      class="fas white-text fa-angle-right mx-2"
+                      aria-hidden="true"
+                    ></i>
+                  </li>
+                  <li class="breadcrumb-item">
+                    <a class="white-text" href="#">หนังสือ</a
+                    ><i
+                      class="fas white-text fa-angle-right mx-2"
+                      aria-hidden="true"
+                    ></i>
+                  </li>
+                  <li class="breadcrumb-item active">หนังสือมาใหม่</li>
+                </ol>
+              </nav>
+            </div>
+          </div>
+        </section>
+        <section class="section-newbook-detail2">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-lg-3 py-3">
+                <div class="card-menu-book wow fadeInLeft">
+                  <div
+                    class="accordion md-accordion"
+                    id="accordionMenu"
+                    role="tablist"
+                    aria-multiselectable="true"
+                  >
+                    <div class="card-menu">
+                      <a
+                        data-toggle="collapse"
+                        data-parent="#accordionMenu"
+                        href="#menu1"
+                        aria-expanded="true"
+                        aria-controls="menu1"
+                      >
+                        <div class="card-header" role="tab" id="headingOne1">
+                          <h5 class="mb-0">
+                            <i class="fas fa-caret-down"></i>
+                            หนังสือ
+                          </h5>
+                        </div>
+                      </a>
+                      <div
+                        id="menu1"
+                        class="collapse show"
+                        role="tabpanel"
+                        aria-labelledby="headingOne1"
+                        data-parent="#accordionMenu"
+                      >
+                        <ul class="ul-menu-book">
+                          <li>
+                            <a href="#!">ทุกหมวดหมู่</a>
+                          </li>
+                          <li class="active">
+                            <a href="#!">ชีวประวัติ</a>
+                          </li>
+                          <li>
+                            <a href="#!">การ์ตูน</a>
+                          </li>
+                          <li>
+                            <a href="#!">นวนิยาย</a>
+                          </li>
+                        </ul>
+                      </div>
+                      <a
+                        data-toggle="collapse"
+                        data-parent="#accordionMenu"
+                        href="#menu2"
+                        aria-expanded="true"
+                        aria-controls="menu2"
+                        class="collapsed"
+                      >
+                        <div class="card-header" role="tab" id="headingOne2">
+                          <h5 class="mb-0">
+                            <i class="fas fa-caret-down"></i>
+                            แมกกาซีน
+                          </h5>
+                        </div>
+                      </a>
+                      <div
+                        id="menu2"
+                        class="collapse"
+                        role="tabpanel"
+                        aria-labelledby="headingOne2"
+                        data-parent="#accordionMenu"
+                      >
+                        <ul class="ul-menu-book">
+                          <li>
+                            <a href="#!">ทุกหมวดหมู่</a>
+                          </li>
+                          <li class="active">
+                            <a href="#!">ชีวประวัติ</a>
+                          </li>
+                          <li>
+                            <a href="#!">การ์ตูน</a>
+                          </li>
+                          <li>
+                            <a href="#!">นวนิยาย</a>
+                          </li>
+                        </ul>
+                      </div>
+                      <a
+                        data-toggle="collapse"
+                        data-parent="#accordionMenu"
+                        href="#menu3"
+                        aria-expanded="true"
+                        aria-controls="menu3"
+                        class="collapsed"
+                      >
+                        <div class="card-header" role="tab" id="headingOne3">
+                          <h5 class="mb-0">
+                            <i class="fas fa-caret-down"></i>
+                            ซีดี
+                          </h5>
+                        </div>
+                      </a>
+                      <div
+                        id="menu3"
+                        class="collapse"
+                        role="tabpanel"
+                        aria-labelledby="headingOne3"
+                        data-parent="#accordionMenu"
+                      >
+                        <ul class="ul-menu-book">
+                          <li>
+                            <a href="#!">ทุกหมวดหมู่</a>
+                          </li>
+                          <li class="active">
+                            <a href="#!">ชีวประวัติ</a>
+                          </li>
+                          <li>
+                            <a href="#!">การ์ตูน</a>
+                          </li>
+                          <li>
+                            <a href="#!">นวนิยาย</a>
+                          </li>
+                        </ul>
+                      </div>
+                      <a
+                        data-toggle="collapse"
+                        data-parent="#accordionMenu"
+                        href="#menu4"
+                        aria-expanded="true"
+                        aria-controls="menu4"
+                        class="collapsed"
+                      >
+                        <div class="card-header" role="tab" id="headingOne4">
+                          <h5 class="mb-0">
+                            <i class="fas fa-caret-down"></i>
+                            ดีวีดี
+                          </h5>
+                        </div>
+                      </a>
+                      <div
+                        id="menu4"
+                        class="collapse"
+                        role="tabpanel"
+                        aria-labelledby="headingOne4"
+                        data-parent="#accordionMenu"
+                      >
+                        <ul class="ul-menu-book">
+                          <li>
+                            <a href="#!">ทุกหมวดหมู่</a>
+                          </li>
+                          <li class="active">
+                            <a href="#!">ชีวประวัติ</a>
+                          </li>
+                          <li>
+                            <a href="#!">การ์ตูน</a>
+                          </li>
+                          <li>
+                            <a href="#!">นวนิยาย</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="menu-search">
+                    <p class="text-menu-search">ค้นหา</p>
+                    <div class="row m-0 position-relative">
+                      <input class="form-control input-menu-search" />
+                      <button class="btn-icon-menu-search w-auto">
+                        <img src="./images/icon-menu-search.png" />
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-lg-9 py-3">
+                <div class="container-newbook-detail">
+                  <div class="header-newbook-detail wow fadeInUp">
+                    <p class="text-newbook-detail">
+                      หนังสือมาใหม่
+                    </p>
+                    <div class="container-short-pagination">
+                      <span class="t-short-pag"
+                        >หน้าที่ <span class="hi-t-short-pag">1</span>/10</span
+                      >
+                      <a href="#!" class="prev-short disabled">
+                        <img src="./images/arrow_prev_pagi.png" />
+                      </a>
+                      <a href="#!" class="next-short">
+                        <img src="./images/arrow_next_pagi.png" />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="body-newbook-detail">
+                    <div class="row">
+                      <div
+                        class="card-container-new-book col-12 col-md-4 mb-3 wow fadeInUp"
+                      >
+                        <div class="container-new-book">
+                          <img
+                            src="./images/new_book1.png"
+                            class="new-book-img"
+                          />
+                        </div>
+                        <div class="container-new-book-data">
+                          <p class="title-new-book font-w-700">นม</p>
+                          <p class="title-new-book mb-2">The Breast</p>
+                          <p class="detail-new-book">
+                            นี่คือเรื่องราวพิลึกพิลั่นที่สุดเรื่องหนึ่ง
+                            ที่คุณจะได้อ่าน เรื่องของ...
+                          </p>
+                        </div>
+                      </div>
+                      <div
+                        class="card-container-new-book col-12 col-md-4 mb-3 wow fadeInUp"
+                      >
+                        <div class="container-new-book">
+                          <img
+                            src="./images/new_book2.png"
+                            class="new-book-img"
+                          />
+                        </div>
+                        <div class="container-new-book-data">
+                          <p class="title-new-book font-w-700">ตื่นซะ</p>
+                          <p class="title-new-book mb-2">WAKE UP Escaping</p>
+                          <p class="detail-new-book">
+                            นี่คือเรื่องราวพิลึกพิลั่นที่สุดเรื่องหนึ่ง
+                            ที่คุณจะได้อ่าน เรื่องของ...
+                          </p>
+                        </div>
+                      </div>
+                      <div
+                        class="card-container-new-book col-12 col-md-4 mb-3 wow fadeInUp"
+                      >
+                        <div class="container-new-book">
+                          <img
+                            src="./images/new_mag1.png"
+                            class="new-book-img"
+                          />
+                        </div>
+                        <div class="container-new-book-data">
+                          <p class="title-new-book font-w-700">ตื่นซะ</p>
+                          <p class="title-new-book mb-2">WAKE UP Escaping</p>
+                          <p class="detail-new-book">
+                            นี่คือเรื่องราวพิลึกพิลั่นที่สุดเรื่องหนึ่ง
+                            ที่คุณจะได้อ่าน เรื่องของ...
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div
+                        class="card-container-new-book col-12 col-md-4 mb-3 wow fadeInUp"
+                      >
+                        <div class="container-new-book">
+                          <img
+                            src="./images/new_book1.png"
+                            class="new-book-img"
+                          />
+                        </div>
+                        <div class="container-new-book-data">
+                          <p class="title-new-book font-w-700">นม</p>
+                          <p class="title-new-book mb-2">The Breast</p>
+                          <p class="detail-new-book">
+                            นี่คือเรื่องราวพิลึกพิลั่นที่สุดเรื่องหนึ่ง
+                            ที่คุณจะได้อ่าน เรื่องของ...
+                          </p>
+                        </div>
+                      </div>
+                      <div
+                        class="card-container-new-book col-12 col-md-4 mb-3 wow fadeInUp"
+                      >
+                        <div class="container-new-book">
+                          <img
+                            src="./images/new_book2.png"
+                            class="new-book-img"
+                          />
+                        </div>
+                        <div class="container-new-book-data">
+                          <p class="title-new-book font-w-700">ตื่นซะ</p>
+                          <p class="title-new-book mb-2">WAKE UP Escaping</p>
+                          <p class="detail-new-book">
+                            นี่คือเรื่องราวพิลึกพิลั่นที่สุดเรื่องหนึ่ง
+                            ที่คุณจะได้อ่าน เรื่องของ...
+                          </p>
+                        </div>
+                      </div>
+                      <div
+                        class="card-container-new-book col-12 col-md-4 mb-3 wow fadeInUp"
+                      >
+                        <div class="container-new-book">
+                          <img
+                            src="./images/new_mag1.png"
+                            class="new-book-img"
+                          />
+                        </div>
+                        <div class="container-new-book-data">
+                          <p class="title-new-book font-w-700">ตื่นซะ</p>
+                          <p class="title-new-book mb-2">WAKE UP Escaping</p>
+                          <p class="detail-new-book">
+                            นี่คือเรื่องราวพิลึกพิลั่นที่สุดเรื่องหนึ่ง
+                            ที่คุณจะได้อ่าน เรื่องของ...
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div class="container my-5 pb-5">
+            <div class="row">
+              <div class="col-12">
+                <nav aria-label="Page navigation example">
+                  <ul class="pagination pg-blue justify-content-center justify-content-md-end">
+                    <li class="page-item img disabled">
+                      <a class="page-link" tabindex="-1"><img src="./images/arrow_prev_pagi.png" ></a>
+                    </li>
+                    <li class="page-item active"><a class="page-link">1</a></li>
+                    <li class="page-item"><a class="page-link">2</a></li>
+                    <li class="page-item"><a class="page-link">3</a></li>
+                    <li class="page-item"><a class="page-link">4</a></li>
+                    <li class="page-item"><a class="page-link">5</a></li>
+                    <li class="page-item img">
+                      <a class="page-link"><img src="./images/arrow_next_pagi.png" ></a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer>
+        <div class="container">
+          <div class="row border-top-footer">
+            <div class="block-footer py-3">
+              <div class="row justify-content-center">
+                <div class="icon-menu-footer">
+                  <a href="#!">
+                    <img src="./images/icon_bottom1.png" />
+                  </a>
+                </div>
+                <div class="icon-menu-footer">
+                  <a href="#!">
+                    <img src="./images/icon_bottom2.png" />
+                  </a>
+                </div>
+                <div class="icon-menu-footer">
+                  <a href="#!">
+                    <img src="./images/icon_bottom3.png" />
+                  </a>
+                </div>
+                <div class="icon-menu-footer">
+                  <a href="#!">
+                    <img src="./images/icon_bottom4.png" />
+                  </a>
+                </div>
+                <div class="icon-menu-footer">
+                  <a href="#!">
+                    <img src="./images/icon_bottom5.png" />
+                  </a>
+                </div>
+                <div class="icon-menu-footer">
+                  <a href="#!">
+                    <img src="./images/icon_bottom6.png" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="block-footer-social py-3">
+              <div class="row justify-content-center">
+                <div class="icon_footer_social">
+                  <a href="#!">
+                    <img src="./images/icon_footer_facebook.png" class="" />
+                  </a>
+                </div>
+                <div class="icon_footer_social">
+                  <a href="#!">
+                    <img src="./images/icon_footer_gplus.png" class="" />
+                  </a>
+                </div>
+                <div class="icon_footer_social">
+                  <a href="#!">
+                    <img src="./images/icon_footer_ig.png" class="" />
+                  </a>
+                </div>
+                <div class="icon_footer_social">
+                  <a href="#!">
+                    <img src="./images/icon_footer_youtube.png" class="" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 text-center">
+              <p class="c-bcbec0">
+                © 2019 สำนักงานนโยบายและแผนพลังงาน (สนพ.) All Rights Reserved
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+  <script
+    type="text/javascript"
+    src="./node_modules/mdbootstrap/js/jquery-3.3.1.min.js"
+  ></script>
+  <script
+    type="text/javascript"
+    src="./node_modules/mdbootstrap/js/popper.min.js"
+  ></script>
+  <script
+    type="text/javascript"
+    src="./node_modules/@fancyapps/fancybox/dist/jquery.fancybox.min.js"
+  ></script>
+  <script
+    type="text/javascript"
+    src="./node_modules/owl.carousel/dist/owl.carousel.min.js"
+  ></script>
+  <script
+    type="text/javascript"
+    src="./node_modules/sweetalert2/dist/sweetalert2.all.min.js"
+  ></script>
+  <script
+    type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/promise-polyfill"
+  ></script>
+  <script
+    type="text/javascript"
+    src="./node_modules/mdbootstrap/js/bootstrap.min.js"
+  ></script>
+  <script
+    type="text/javascript"
+    src="./node_modules/mdbootstrap/js/mdb.min.js"
+  ></script>
+  <script>
+    new WOW().init();
+    $(document).ready(function() {
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 20,
+        nav: false,
+        autoplay: true,
+        autoplayTimeout: 3000,
+        responsiveClass: true,
+        responsive: {
+          0: {
+            items: 1
+          },
+          600: {
+            items: 3
+          },
+          1000: {
+            items: 5,
+            nav: true,
+            touchDrag: true
+          }
+        }
+      });
+    });
+  </script>
+</html>

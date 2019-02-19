@@ -331,6 +331,57 @@ p.card-news-detail {
   bottom: 20px;
   padding: 0;
 }
+.container-short-pagination{
+  position: absolute;
+  right: 15px;
+  bottom: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.t-short-pag{
+  font-size: 20px;
+  color: #653614;
+  font-weight: 700;
+}
+.hi-t-short-pag{
+  font-size: 26px;
+  color: #10753e;
+  font-weight: 700;
+}
+.prev-short, .next-short{
+  width: 25px;
+  height: 25px;
+  background-color: #10753e;
+  text-align: center;
+}
+.prev-short img, .next-short img{  
+  height: 100%;
+  margin-bottom: 2px;
+}
+.prev-short.disabled{
+  background-color: #ebebec;
+}
+.pagination .page-item .page-link{
+  font-size: 22px;
+  color: #fff;
+}
+.pagination.pg-blue .page-item.active .page-link, .pagination.pg-blue .page-item.active .page-link:hover{
+  background-color: transparent;
+  box-shadow: none;
+  color: #10753e;
+}
+.page-item.img.disabled .page-link{
+  background-color: #bcbec0;
+}
+.page-item.img .page-link{
+  background-color: #10753e;
+}
+.page-item.img .page-link img{
+  width: 15px;
+  
+}
 .icon-see-more {
   width: 20px;
   height: 20px;
@@ -352,6 +403,31 @@ p.card-news-detail {
 .detail-new-book {
   font-size: 18px;
   line-height: 20px;
+}
+.history-rent{
+  background-color: #f0ebde;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.footer-history-rent{
+  background-color: #10753e;
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+  padding-bottom: 5px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.footer-history-rent a{
+  color: #fff;
+}
+.t-rent{
+  font-size: 20px;
+  color: #10753e;
+  font-weight: 700;
+  margin-bottom: 0;
+  line-height: 24px;
 }
 .card-container-new-book {
   border-right: 1px solid #d1d3d4;
@@ -429,6 +505,12 @@ p.card-news-detail {
   background-repeat: no-repeat;
   background-size: 100% auto;
 }
+.section-newbook-detail2 {
+  background-color: transparent;
+  background-image: url("../images/bg_detail_book_white.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
 .breadcrumb-item {
   font-size: 18px;
   line-height: 1;
@@ -444,6 +526,7 @@ p.card-news-detail {
 .breadcrumb {
   background-color: transparent;
 }
+
 .card-menu-book {
   background-color: #10753e;
   padding-top: 2.8rem;
