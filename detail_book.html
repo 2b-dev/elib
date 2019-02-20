@@ -69,28 +69,63 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav custom-navbar-nav mr-auto">
                 <li class="nav-item custom-menu">
-                  <a class="nav-link waves-effect" href="#!"
+                  <a
+                    class="nav-link waves-effect"
+                    href="#!"
+                    data-toggle="tooltip"
+                    data-placement="bottom"
+                    title="หนังสือ"
                     ><img src="./images/icon_menu1.png"
                   /></a>
                 </li>
                 <li class="nav-item custom-menu">
-                  <a class="nav-link waves-effect" href="#!"
+                  <a
+                    class="nav-link waves-effect"
+                    href="#!"
+                    data-toggle="tooltip"
+                    data-placement="bottom"
+                    title="แมกกาซีน"
                     ><img src="./images/icon_menu2.png"
                   /></a>
                 </li>
                 <li class="nav-item custom-menu">
-                  <a class="nav-link waves-effect" href="#!"
+                  <a
+                    class="nav-link waves-effect"
+                    href="#!"
+                    data-toggle="tooltip"
+                    data-placement="bottom"
+                    title="สื่อมัลติมีเดีย"
                     ><img src="./images/icon_menu3.png"
                   /></a>
                 </li>
                 <li class="nav-item custom-menu">
-                  <a class="nav-link waves-effect" href="#!"
+                  <a
+                    class="nav-link waves-effect"
+                    href="#!"
+                    data-toggle="tooltip"
+                    data-placement="bottom"
+                    title="ศูนย์ข้อมูลข่าวสาร"
                     ><img src="./images/icon_menu4.png"
                   /></a>
                 </li>
                 <li class="nav-item custom-menu">
-                  <a class="nav-link waves-effect" href="#!"
+                  <a
+                    class="nav-link waves-effect"
+                    href="#!"
+                    data-toggle="tooltip"
+                    data-placement="bottom"
+                    title="เว็บลิ้งค์"
                     ><img src="./images/icon_menu5.png"
+                  /></a>
+                </li>
+                <li class="nav-item custom-menu">
+                  <a
+                    class="nav-link waves-effect"
+                    href="#!"
+                    data-toggle="tooltip"
+                    data-placement="bottom"
+                    title="ยืม-คืนหนังสือ"
+                    ><img src="./images/icon_menu6.png"
                   /></a>
                 </li>
               </ul>
@@ -658,6 +693,7 @@
   ></script>
   <script>
     new WOW().init();
+    $('[data-toggle="tooltip"]').tooltip();
     $(document).ready(function() {
       $(".owl-carousel").owlCarousel({
         loop: true,
