@@ -19,7 +19,7 @@ p.text-journal {
 .journal-img {
   width: 80%;
   max-width: 300px;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 .text-filling {
   font-size: 24px;
@@ -233,9 +233,22 @@ a.see_all{
   color: #10753e;
   font-size: 18px;
 }
+.btn-see-all{
+  font-size: 18px;
+  color: #fff;
+  background-color: #10753e;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 5px;
+}
+.btn-see-all:hover{
+  color: #fff;
+  font-weight: 700;
+  background-color: #f04f2d;
+}
 .card-news {
   width: 100%;
-  margin-top: -15px;
+  margin-top: 15px;
 }
 .card-news-header {
   padding: 0.2rem 0.8rem;
@@ -251,6 +264,7 @@ a.see_all{
   position: absolute;
   top: 0;
   width: 0;
+  display: none;
 }
 .card-news-body {
   position: relative;
