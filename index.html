@@ -69,28 +69,63 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav custom-navbar-nav mr-auto">
                 <li class="nav-item custom-menu">
-                  <a class="nav-link waves-effect" href="#!"
+                  <a
+                    class="nav-link waves-effect"
+                    href="#!"
+                    data-toggle="tooltip"
+                    data-placement="bottom"
+                    title="หนังสือ"
                     ><img src="./images/icon_menu1.png"
                   /></a>
                 </li>
                 <li class="nav-item custom-menu">
-                  <a class="nav-link waves-effect" href="#!"
+                  <a
+                    class="nav-link waves-effect"
+                    href="#!"
+                    data-toggle="tooltip"
+                    data-placement="bottom"
+                    title="แมกกาซีน"
                     ><img src="./images/icon_menu2.png"
                   /></a>
                 </li>
                 <li class="nav-item custom-menu">
-                  <a class="nav-link waves-effect" href="#!"
+                  <a
+                    class="nav-link waves-effect"
+                    href="#!"
+                    data-toggle="tooltip"
+                    data-placement="bottom"
+                    title="สื่อมัลติมีเดีย"
                     ><img src="./images/icon_menu3.png"
                   /></a>
                 </li>
                 <li class="nav-item custom-menu">
-                  <a class="nav-link waves-effect" href="#!"
+                  <a
+                    class="nav-link waves-effect"
+                    href="#!"
+                    data-toggle="tooltip"
+                    data-placement="bottom"
+                    title="ศูนย์ข้อมูลข่าวสาร"
                     ><img src="./images/icon_menu4.png"
                   /></a>
                 </li>
                 <li class="nav-item custom-menu">
-                  <a class="nav-link waves-effect" href="#!"
+                  <a
+                    class="nav-link waves-effect"
+                    href="#!"
+                    data-toggle="tooltip"
+                    data-placement="bottom"
+                    title="เว็บลิ้งค์"
                     ><img src="./images/icon_menu5.png"
+                  /></a>
+                </li>
+                <li class="nav-item custom-menu">
+                  <a
+                    class="nav-link waves-effect"
+                    href="#!"
+                    data-toggle="tooltip"
+                    data-placement="bottom"
+                    title="ยืม-คืนหนังสือ"
+                    ><img src="./images/icon_menu6.png"
                   /></a>
                 </li>
               </ul>
@@ -153,53 +188,95 @@
                   </div>
                   <div class="col-12">
                     <div
-                      class="row justify-content-center justify-content-lg-around"
+                      id="carousel-example-1z"
+                      class="carousel slide carousel-fade"
+                      data-ride="carousel"
                     >
-                      <div
-                        class="col-4 col-lg-2 my-3 text-center justify-content-center wow fadeIn"
-                      >
-                        <a href="#!">
-                          <div class="icon-menu-digital z-depth-3">
-                            <img src="./images/icon_menu1.png" class="" />
-                          </div>
-                        </a>
+                      <!--Indicators-->
+                      <ol class="carousel-indicators">
+                        <li
+                          data-target="#carousel-example-1z"
+                          data-slide-to="0"
+                          class="active"
+                        ></li>
+                        <li
+                          data-target="#carousel-example-1z"
+                          data-slide-to="1"
+                        ></li>
+                        <li
+                          data-target="#carousel-example-1z"
+                          data-slide-to="2"
+                        ></li>
+                        <li
+                          data-target="#carousel-example-1z"
+                          data-slide-to="3"
+                        ></li>
+                        <li
+                          data-target="#carousel-example-1z"
+                          data-slide-to="4"
+                        ></li>
+                      </ol>
+                      <!--/.Indicators-->
+                      <!--Slides-->
+                      <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                          <img
+                            class="d-block w-100"
+                            src="./images/slide/1.jpg"
+                          />
+                        </div>
+                        <div class="carousel-item">
+                          <img
+                            class="d-block w-100"
+                            src="./images/slide/2.jpg"
+                          />
+                        </div>
+                        <div class="carousel-item">
+                          <img
+                            class="d-block w-100"
+                            src="./images/slide/3.jpg"
+                          />
+                        </div>
+                        <div class="carousel-item">
+                          <img
+                            class="d-block w-100"
+                            src="./images/slide/4.jpg"
+                          />
+                        </div>
+                        <div class="carousel-item">
+                          <img
+                            class="d-block w-100"
+                            src="./images/slide/5.jpg"
+                          />
+                        </div>
                       </div>
-                      <div
-                        class="col-4 col-lg-2 my-3 text-center justify-content-center wow fadeIn"
+                      <!--/.Slides-->
+                      <!--Controls-->
+                      <a
+                        class="carousel-control-prev"
+                        href="#carousel-example-1z"
+                        role="button"
+                        data-slide="prev"
                       >
-                        <a href="#!">
-                          <div class="icon-menu-digital z-depth-3">
-                            <img src="./images/icon_menu2.png" class="" />
-                          </div>
-                        </a>
-                      </div>
-                      <div
-                        class="col-4 col-lg-2 my-3 text-center justify-content-center wow fadeIn"
+                        <span
+                          class="carousel-control-prev-icon"
+                          aria-hidden="true"
+                        ></span>
+                        <span class="sr-only">Previous</span>
+                      </a>
+                      <a
+                        class="carousel-control-next"
+                        href="#carousel-example-1z"
+                        role="button"
+                        data-slide="next"
                       >
-                        <a href="#!">
-                          <div class="icon-menu-digital z-depth-3">
-                            <img src="./images/icon_menu3.png" class="" />
-                          </div>
-                        </a>
-                      </div>
-                      <div
-                        class="col-4 col-lg-2 my-3 text-center justify-content-center wow fadeIn"
-                      >
-                        <a href="#!">
-                          <div class="icon-menu-digital z-depth-3">
-                            <img src="./images/icon_menu4.png" class="" />
-                          </div>
-                        </a>
-                      </div>
-                      <div
-                        class="col-4 col-lg-2 my-3 text-center justify-content-center wow fadeIn"
-                      >
-                        <a href="#!">
-                          <div class="icon-menu-digital z-depth-3">
-                            <img src="./images/icon_menu5.png" class="" />
-                          </div>
-                        </a>
-                      </div>
+                        <span
+                          class="carousel-control-next-icon"
+                          aria-hidden="true"
+                        ></span>
+                        <span class="sr-only">Next</span>
+                      </a>
+                      <!--/.Controls-->
                     </div>
                   </div>
                 </div>
@@ -260,6 +337,13 @@
                       ฉบับที่ 126 มิถุนายน-กรกฎาคม 2561
                     </p>
                     <img src="./images/journal.png" class="journal-img" />
+                    <a
+                      class="see_all"
+                      href="http://www.eppo.go.th/index.php/th/informationservices/ct-menu-item-52?orders[publishUp]=publishUp&issearch=1"
+                      target="_blank"
+                    >
+                      <p>ดูทั้งหมด</p>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -273,7 +357,7 @@
                   <div
                     class="card-news-body white text-center card-news-height"
                   >
-                    <table class="table table-filling table-borderless">
+                    <table class="table table-filling table-borderless mb-0">
                       <thead>
                         <tr>
                           <th scope="col" class="text-left">ประเภท</th>
@@ -282,35 +366,42 @@
                       </thead>
                       <tbody>
                         <tr>
-                          <td class="text-left">แก๊สโซฮอล 91</td>
+                          <td class="text-left"><img src="./images/slide/oil_name1.png" class="img-oil"></td>
                           <td>26.08</td>
                         </tr>
                         <tr>
-                          <td class="text-left">แก๊สโซฮอล 95</td>
+                          <td class="text-left"><img src="./images/slide/oil_name2.png" class="img-oil"></td>
                           <td>26.35</td>
                         </tr>
                         <tr>
-                          <td class="text-left">แก๊สโซฮอล E20</td>
+                          <td class="text-left"><img src="./images/slide/oil_name3.png" class="img-oil"></td>
                           <td>23.34</td>
                         </tr>
                         <tr>
-                          <td class="text-left">แก๊สโซฮอล E85</td>
+                          <td class="text-left"><img src="./images/slide/oil_name4.png" class="img-oil"></td>
                           <td>19.34</td>
                         </tr>
                         <tr>
-                          <td class="text-left">ดีเซล</td>
+                          <td class="text-left"><img src="./images/slide/oil_name5.png" class="img-oil"></td>
                           <td>25.69</td>
                         </tr>
                         <tr>
-                          <td class="text-left">เบนซิน 95</td>
+                          <td class="text-left"><img src="./images/slide/oil_name6.png" class="img-oil"></td>
                           <td>33.76</td>
                         </tr>
                         <tr>
-                          <td class="text-left">ก๊าซ CNG (NGV)</td>
+                          <td class="text-left"><img src="./images/slide/oil_name7.png" class="img-oil"></td>
                           <td>16.07</td>
                         </tr>
                       </tbody>
                     </table>
+                    <a
+                      class="see_all"
+                      href="http://27.254.37.81/epposite/templates/eppo_v15_mixed/eppo_oil/eppo_oil_gen.php"
+                      target="_blank"
+                    >
+                      <p>ดูทั้งหมด</p>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -676,5 +767,6 @@
   ></script>
   <script>
     new WOW().init();
+    $('[data-toggle="tooltip"]').tooltip();
   </script>
 </html>
